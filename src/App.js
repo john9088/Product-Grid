@@ -1,6 +1,6 @@
 import React from 'react'
 import Main from './components/Main'
-import { HashRouter} from 'react-router-dom'
+import { BrowserRouter, HashRouter} from 'react-router-dom'
 
 function App() {
   return (

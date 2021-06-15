@@ -18,8 +18,8 @@ const Main = ({itemData}) => {
     return(
     <>
         <Switch>
-            <Route path='/productPage' component={() => <ProductGrid itemData={itemData}/>} />
-            <Route path='/product/:productId' component={ProductWithId} />
+            <Route exact path='/productPage' component={() => <ProductGrid itemData={itemData}/>} />
+            <Route exact path='/product/:productId' component={ProductWithId} />
             <Redirect to='/productPage'/>
         </Switch>
     </>
