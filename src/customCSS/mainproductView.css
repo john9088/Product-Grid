@@ -97,7 +97,7 @@
   font-size: 0.75vw;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   .product-view-main {
     flex-direction: column;
   }

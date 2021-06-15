@@ -7,7 +7,7 @@ const ProductCard = ({data}) => {
                 <img src={data.displayImg} alt={'Hello'}/>
             </div>
             <div className='product-card-info'>
-                <table cellPadding='10' cellSpacing='10' >
+                <table cellPadding='5' cellSpacing='5' >
                     <tbody>
                         <tr>
                             <th align='LEFT'>Name:</th>
